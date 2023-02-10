@@ -1,0 +1,10 @@
+﻿  injector.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\inject\injector.cpp(86,88): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+  ui.cc
+  Generating code
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\inject\injector.cpp(75): warning C4715: 'process::GetModuleBaseAddress': not all control paths return a value
+  46 of 1645 functions ( 2.8%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    44 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ImGui Loader Base.vcxproj -> C:\Users\malth\Desktop\ImGui-Loader-Base-master\x64\Release\ImGui Loader base.exe

@@ -1,0 +1,550 @@
+﻿  ui.cc
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(413,1): error C2011: 'ImGuiButtonFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1568): message : see declaration of 'ImGuiButtonFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(433,1): error C2011: 'ImGuiSliderFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1628): message : see declaration of 'ImGuiSliderFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\ui\ui.cc(34,28): error C2676: binary '-': 'ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator
+  imgui.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(413,1): error C2011: 'ImGuiButtonFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1568): message : see declaration of 'ImGuiButtonFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(433,1): error C2011: 'ImGuiSliderFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1628): message : see declaration of 'ImGuiSliderFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(916,42): error C2065: 'ImGuiNavItemData': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(916,60): error C2065: 'result': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(916,68): error C2275: 'ImRect': illegal use of this type as an expression
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(642): message : see declaration of 'ImRect'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(916,75): error C2146: syntax error: missing ')' before identifier 'cand'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,29): error C2182: 'NavApplyItemToResult': illegal use of type 'void'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,50): error C2065: 'ImGuiNavItemData': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,68): error C2065: 'result': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,89): error C2065: 'window': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,76): error C2275: 'ImGuiWindow': illegal use of this type as an expression
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,97): error C2275: 'ImGuiID': illegal use of this type as an expression
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(205): message : see declaration of 'ImGuiID'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(917,105): error C2146: syntax error: missing ')' before identifier 'id'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(943,26): error C2143: syntax error: missing ';' before '*'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(943,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(943,152): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(947,87): error C2061: syntax error: identifier 'ImGuiViewportP'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(952,29): error C2182: 'UpdateViewportPlatformMonitor': illegal use of type 'void'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(952,75): error C2065: 'viewport': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(1218,28): error C3861: 'ImBezierCubicCalc': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2231,15): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2231,32): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2257,30): error C2039: 'NavScoringRect': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2289,9): error C2065: 'ImGuiOldColumns': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2289,26): error C2065: 'columns': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2290,9): error C2065: 'columns': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2291,9): error C2065: 'ImGuiTable': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2291,21): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2291,31): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2293,13): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2294,20): error C2039: 'TableEndRow': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2294,32): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2294,31): error C3861: 'TableEndRow': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2295,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2298,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2321,9): error C2065: 'ImGuiTable': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2321,21): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2321,31): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2322,13): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2323,20): error C2039: 'TableEndRow': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2323,32): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2323,31): error C3861: 'TableEndRow': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2351,5): error C2065: 'ImGuiTable': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2351,17): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2351,27): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2352,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2352,18): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2353,16): error C2039: 'TableEndRow': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2353,28): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2353,27): error C3861: 'TableEndRow': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2367,13): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2367,31): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2394,13): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2396,34): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2396,25): error C2737: 'pos_y1': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2397,34): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2397,25): error C2737: 'pos_y2': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2498,7): error C2039: 'ColorStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2508,7): error C2039: 'ColorStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2517,35): error C2039: 'ColorStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2517,31): error C2530: 'backup': references must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2519,11): error C2039: 'ColorStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2532,46): error C2065: 'ImGuiWindowDockStyleCol_COUNT': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2534,20): error C2078: too many initializers
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2579,11): error C2039: 'StyleVarStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2593,11): error C2039: 'StyleVarStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2606,35): error C2039: 'StyleVarStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2606,31): error C2530: 'backup': references must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2611,11): error C2039: 'StyleVarStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2940,5): error C2065: 'ViewportAllowPlatformMonitorExtend': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2941,5): error C2065: 'ViewportPos': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2947,87): error C2065: 'SetWindowDockAllowFlags': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2950,5): error C2065: 'LastFrameJustFocused': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2952,23): error C2065: 'FontDpiScale': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2954,5): error C2065: 'DockOrder': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(2965,43): error C2300: 'ImGuiColumns': class does not have a destructor called '~ImGuiOldColumns'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3051,7): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3051,43): error C2039: 'CurrentTableIdx': is not a member of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1303): message : see declaration of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3051,69): error C2039: 'Tables': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3051,98): error C2039: 'CurrentTableIdx': is not a member of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1303): message : see declaration of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3056,13): error C2039: 'GcCompactTransientMiscBuffers': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3059,7): error C2039: 'ItemFlagsStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3060,7): error C2039: 'GroupStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3061,5): error C3861: 'TableGcCompactSettings': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3099,11): error C2039: 'ActiveIdMouseButton': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3108,7): error C2039: 'ActiveIdNoClearOnFocusLoss': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3119,7): error C2039: 'ActiveIdUsingMouseWheel': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3135,7): error C2039: 'HoveredIdUsingMouseWheel': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3174,61): error C2039: 'RootWindowDockTree': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3175,82): error C2039: 'RootWindowDockTree': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3186,17): error C2039: 'Viewport': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3186,31): error C2039: 'MouseViewport': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3187,47): error C2039: 'RootWindowDockTree': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3187,85): error C2039: 'RootWindowDockTree': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3214,54): error C2065: 'ImGuiItemStatusFlags_HoveredWindow': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3229,12): error C2039: 'CurrentItemFlags': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3255,73): error C2039: 'CurrentItemFlags': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3257,11): error C2039: 'HoveredIdDisabled': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3274,15): error C2039: 'DebugItemPickerBreakId': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3294,13): error C2039: 'SetLastItemData': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3302,13): error C2039: 'ItemFocusable': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(905): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3309,33): error C2039: 'CurrentItemFlags': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3309,16): error C2737: 'is_tab_stop': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.cpp(3309,110): fatal error C1003: error count exceeds 100; stopping compilation
+  imgui_demo.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_demo.cpp(3177,16): error C2039: 'ConfigWindowsMemoryCompactTimer': is not a member of 'ImGuiIO'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1833): message : see declaration of 'ImGuiIO'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_demo.cpp(3177,134): error C2039: 'ConfigWindowsMemoryCompactTimer': is not a member of 'ImGuiIO'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1833): message : see declaration of 'ImGuiIO'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_demo.cpp(3415,61): error C2039: 'DisplayOffset': is not a member of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2775): message : see declaration of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_demo.cpp(3415,90): error C2664: 'bool ImGui::InputFloat(const char *,float *,float,float,const char *,ImGuiInputTextFlags)': cannot convert argument 2 from 'int' to 'float *'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_demo.cpp(3415,78): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(554,29): message : see declaration of 'ImGui::InputFloat'
+  imgui_draw.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(413,1): error C2011: 'ImGuiButtonFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1568): message : see declaration of 'ImGuiButtonFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(433,1): error C2011: 'ImGuiSliderFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1628): message : see declaration of 'ImGuiSliderFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(362,18): error C2039: 'Clear': is not a member of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2432): message : see declaration of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(364,5): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(365,5): error C2065: 'IdxBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(366,5): error C2065: 'VtxBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(367,5): error C2065: 'Flags': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(367,13): error C2065: '_Data': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(367,21): error C2065: '_Data': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(368,5): error C2065: '_VtxCurrentOffset': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(369,5): error C2065: '_VtxCurrentIdx': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(370,5): error C2065: '_VtxWritePtr': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(371,5): error C2065: '_IdxWritePtr': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(372,5): error C2065: '_ClipRectStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(373,5): error C2065: '_TextureIdStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(374,5): error C2065: '_Path': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(375,5): error C2065: '_Splitter': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(378,18): error C2039: 'ClearFreeMemory': is not a member of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2432): message : see declaration of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(380,5): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(381,5): error C2065: 'IdxBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(382,5): error C2065: 'VtxBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(383,5): error C2065: '_VtxCurrentIdx': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(384,5): error C2065: '_VtxWritePtr': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(385,5): error C2065: '_IdxWritePtr': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(386,5): error C2065: '_ClipRectStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(387,5): error C2065: '_TextureIdStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(388,5): error C2065: '_Path': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(389,5): error C2065: '_Splitter': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(411,26): error C2065: '_VtxCurrentOffset': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(434,18): error C2039: 'UpdateClipRect': is not a member of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2432): message : see declaration of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(437,35): error C2065: '_ClipRectStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(437,35): error C2065: '_Data': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(438,27): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(438,49): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(438,64): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(441,9): error C3861: 'AddDrawCmd': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(446,27): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(447,141): error C2065: '_TextureIdStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(448,9): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(453,18): error C2039: 'UpdateTextureID': is not a member of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2432): message : see declaration of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(456,41): error C2065: '_TextureIdStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(456,23): error C2737: 'curr_texture_id': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(457,27): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(457,45): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(460,9): error C3861: 'AddDrawCmd': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(465,27): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(466,120): error C2065: '_ClipRectStack': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(466,120): error C2065: '_Data': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(466,8): error C2660: 'memcmp': function does not take 2 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vcruntime_string.h(29,13): message : see declaration of 'memcmp'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(467,9): error C2065: 'CmdBuffer': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(528,9): error C2065: '_VtxCurrentOffset': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(609,1): error C2511: 'void ImDrawList::AddPolyline(const ImVec2 *,const int,ImU32,bool,float)': overloaded member function not found in 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2432): message : see declaration of 'ImDrawList'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(620,15): error C2677: binary '&': no global operator found which takes type 'ImDrawListFlags_' (or there is no acceptable conversion)
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(628,9): error C2352: 'ImDrawList::PrimReserve': illegal call of non-static member function
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(522): message : see declaration of 'ImDrawList::PrimReserve'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(657,33): error C2597: illegal reference to non-static member 'ImDrawList::_VtxCurrentIdx'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2441): message : see declaration of 'ImDrawList::_VtxCurrentIdx'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(657,47): error C2440: 'initializing': cannot convert from 'unknown' to 'unsigned int'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(657,31): message : There is no context in which this conversion is possible
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(661,85): error C2597: illegal reference to non-static member 'ImDrawList::_VtxCurrentIdx'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(661,85): error C3867: 'ImDrawList::_VtxCurrentIdx': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(661,85): error C2568: ':': unable to resolve function overload
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,31): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,31): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,31): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,70): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,70): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,70): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,109): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,109): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(678,109): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,31): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,31): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,31): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,70): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,70): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,70): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,109): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,109): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(679,109): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,31): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,31): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,31): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,70): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,70): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,70): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,109): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,109): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(680,109): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,31): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,31): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,31): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,71): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,71): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,71): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,110): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,110): error C3867: 'ImDrawList::_IdxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(681,110): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(682,17): error C2597: illegal reference to non-static member 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2445): message : see declaration of 'ImDrawList::_IdxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,31): error C2597: illegal reference to non-static member 'ImDrawList::_VtxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,31): error C3867: 'ImDrawList::_VtxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,31): error C2109: subscript requires array or pointer type
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,73): error C2597: illegal reference to non-static member 'ImDrawList::_VtxWritePtr'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,73): error C3867: 'ImDrawList::_VtxWritePtr': non-standard syntax; use '&' to create a pointer to member
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_draw.cpp(690,73): fatal error C1003: error count exceeds 100; stopping compilation
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_impl_win32.cpp(64,8): error C2039: 'ImeWindowHandle': is not a member of 'ImGuiIO'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1833): message : see declaration of 'ImGuiIO'
+  imgui_tables.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(413,1): error C2011: 'ImGuiButtonFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1568): message : see declaration of 'ImGuiButtonFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(433,1): error C2011: 'ImGuiSliderFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1628): message : see declaration of 'ImGuiSliderFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(297,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(297,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(297,20): error C2039: 'TableFindByID': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1576): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(298,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(298,1): error C2059: syntax error: '{'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(298,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(298,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(307,12): error C3861: 'BeginTableEx': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(310,16): error C2039: 'BeginTableEx': is not a member of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1576): message : see declaration of 'ImGui'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(313,33): error C3861: 'GetCurrentWindow': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(318,5): error C2065: 'IMGUI_TABLE_MAX_COLUMNS': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(324,31): error C3861: 'GetContentRegionAvail': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(325,32): error C3861: 'CalcItemSize': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(327,29): error C3861: 'IsClippedEx': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(329,9): error C3861: 'ItemSize': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(334,17): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(334,27): error C2039: 'Tables': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(335,30): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(335,76): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(335,15): error C2737: 'instance_no': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(337,46): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(337,27): error C2737: 'table_last_flags': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(339,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(342,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(346,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(347,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(348,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(349,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(350,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(350,26): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(351,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(352,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(353,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(354,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(373,13): error C3861: 'SetNextWindowContentSize': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(377,13): error C3861: 'SetNextWindowScroll': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(381,9): error C3861: 'BeginChildEx': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(382,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(383,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(383,27): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(384,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(384,28): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(385,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(385,28): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(386,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(392,9): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(392,27): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(392,46): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(396,5): error C3861: 'PushOverrideID': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(399,33): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(400,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(401,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(402,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(403,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(404,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(404,53): error C2039: 'ParentWorkRect': is not a member of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1383): message : see declaration of 'ImGuiWindow'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(405,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(406,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(407,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(408,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(409,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(410,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(423,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(424,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(425,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(426,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(430,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(430,82): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(432,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(433,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(434,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(435,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(436,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(436,61): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(437,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(437,35): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(438,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(438,39): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(439,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(439,82): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(441,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(441,23): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(441,41): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(442,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(443,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(443,32): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(444,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(444,35): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(445,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(446,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(449,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(449,32): error C3861: 'GetColorU32': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(450,5): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(450,31): error C3861: 'GetColorU32': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(453,29): error C2039: 'Tables': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(453,45): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(453,15): error C2737: 'table_idx': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(454,7): error C2039: 'CurrentTableStack': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(455,7): error C2039: 'CurrentTable': is not a member of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(960): message : see declaration of 'ImGuiContext'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(455,22): error C2065: 'table': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(456,22): error C2039: 'CurrentTableIdx': is not a member of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1303): message : see declaration of 'ImGuiWindowTempData'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_tables.cpp(456,38): fatal error C1003: error count exceeds 100; stopping compilation
+  imgui_widgets.cpp
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(413,1): error C2011: 'ImGuiButtonFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1568): message : see declaration of 'ImGuiButtonFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(433,1): error C2011: 'ImGuiSliderFlags_': 'enum' type redefinition
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(1628): message : see declaration of 'ImGuiSliderFlags_'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(456,17): error C2065: 'ImGuiButtonFlags_Disabled': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(465,19): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(465,60): error C2065: 'ImGuiButtonFlags_PressedOnClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(465,94): error C2065: 'ImGuiButtonFlags_PressedOnRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(465,130): error C2065: 'ImGuiButtonFlags_PressedOnDoubleClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(466,18): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(469,52): error C2065: 'ImGuiButtonFlags_FlattenChildren': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(469,16): error C2737: 'flatten_hovered_children': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(486,38): error C2065: 'ImGuiButtonFlags_PressedOnDragDropHold': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(502,29): error C2065: 'ImGuiButtonFlags_AllowItemOverlap': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(508,23): error C2065: 'ImGuiButtonFlags_NoKeyModifiers': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(510,26): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(513,31): error C2065: 'ImGuiButtonFlags_NoNavFocus': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(517,27): error C2065: 'ImGuiButtonFlags_PressedOnClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(517,98): error C2065: 'ImGuiButtonFlags_PressedOnDoubleClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(520,29): error C2065: 'ImGuiButtonFlags_NoHoldingActiveID': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(526,26): error C2065: 'ImGuiButtonFlags_PressedOnRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(528,32): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(535,26): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(546,23): error C2065: 'ImGuiButtonFlags_NoHoveredOnNav': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(552,88): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(552,169): error C2660: 'ImGui::IsNavInputTest': function does not take 1 arguments
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1697,29): message : see declaration of 'ImGui::IsNavInputTest'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(560,81): error C2065: 'ImGuiButtonFlags_NoNavFocus': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(580,41): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(582,61): error C2065: 'ImGuiButtonFlags_PressedOnDoubleClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(583,58): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(589,27): error C2065: 'ImGuiButtonFlags_NoNavFocus': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(617,18): error C2065: 'ImGuiButtonFlags_AlignTextBaseLine': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(627,18): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(656,50): error C2065: 'ImGuiButtonFlags_AlignTextBaseLine': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(664,1): error C2244: 'InvisibleButton': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(663): message : see declaration of 'InvisibleButton'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(700,18): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(827,45): error C2065: 'ImGuiButtonFlags_NoNavFocus': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(1314,54): error C2065: 'ImGuiButtonFlags_FlattenChildren': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(1314,89): error C2065: 'ImGuiButtonFlags_AllowItemOverlap': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2170,1): error C2084: function 'bool ImGui::DragFloat(const char *,float *,float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3030): message : see previous definition of 'DragFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2169,13): error C2084: function 'bool ImGui::DragFloat(const char *,float *,float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3030): message : see previous definition of 'DragFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2175,1): error C2084: function 'bool ImGui::DragFloat2(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3031): message : see previous definition of 'DragFloat2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2174,13): error C2084: function 'bool ImGui::DragFloat2(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3031): message : see previous definition of 'DragFloat2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2180,1): error C2084: function 'bool ImGui::DragFloat3(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3032): message : see previous definition of 'DragFloat3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2179,13): error C2084: function 'bool ImGui::DragFloat3(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3032): message : see previous definition of 'DragFloat3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2185,1): error C2084: function 'bool ImGui::DragFloat4(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3033): message : see previous definition of 'DragFloat4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2184,13): error C2084: function 'bool ImGui::DragFloat4(const char *,float [],float,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3033): message : see previous definition of 'DragFloat4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2190,1): error C2244: 'DragFloatRange2': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2189): message : see declaration of 'DragFloatRange2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2215,1): error C2244: 'DragInt': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2214): message : see declaration of 'DragInt'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2220,1): error C2244: 'DragInt2': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2219): message : see declaration of 'DragInt2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2225,1): error C2244: 'DragInt3': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2224): message : see declaration of 'DragInt3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2230,1): error C2244: 'DragInt4': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2229): message : see declaration of 'DragInt4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2235,1): error C2244: 'DragIntRange2': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2234): message : see declaration of 'DragIntRange2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2313,37): error C2065: 'ImGuiSliderFlags_Vertical': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1780,81): message : This diagnostic occurred in the compiler generated function 'bool ImGui::SliderBehaviorT(const ImRect &,ImGuiID,ImGuiDataType,T *,T,T,const char *,float,ImGuiSliderFlags,ImRect *)'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2313,37): error C3861: 'ImGuiSliderFlags_Vertical': identifier not found
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1780,81): message : This diagnostic occurred in the compiler generated function 'bool ImGui::SliderBehaviorT(const ImRect &,ImGuiID,ImGuiDataType,T *,T,T,const char *,float,ImGuiSliderFlags,ImRect *)'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2627,1): error C2084: function 'bool ImGui::SliderFloat(const char *,float *,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3036): message : see previous definition of 'SliderFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2626,13): error C2084: function 'bool ImGui::SliderFloat(const char *,float *,float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3036): message : see previous definition of 'SliderFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2632,1): error C2084: function 'bool ImGui::SliderFloat2(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3037): message : see previous definition of 'SliderFloat2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2631,13): error C2084: function 'bool ImGui::SliderFloat2(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3037): message : see previous definition of 'SliderFloat2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2637,1): error C2084: function 'bool ImGui::SliderFloat3(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3038): message : see previous definition of 'SliderFloat3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2636,13): error C2084: function 'bool ImGui::SliderFloat3(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3038): message : see previous definition of 'SliderFloat3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2642,1): error C2084: function 'bool ImGui::SliderFloat4(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3039): message : see previous definition of 'SliderFloat4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2641,13): error C2084: function 'bool ImGui::SliderFloat4(const char *,float [],float,float,const char *,float)' already has a body
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(3039): message : see previous definition of 'SliderFloat4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2647,1): error C2244: 'SliderAngle': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2646): message : see declaration of 'SliderAngle'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2657,1): error C2244: 'SliderInt': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2656): message : see declaration of 'SliderInt'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2662,1): error C2244: 'SliderInt2': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2661): message : see declaration of 'SliderInt2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2667,1): error C2244: 'SliderInt3': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2666): message : see declaration of 'SliderInt3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2672,1): error C2244: 'SliderInt4': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2671): message : see declaration of 'SliderInt4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2677,1): error C2244: 'VSliderScalar': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2676): message : see declaration of 'VSliderScalar'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2736,1): error C2244: 'VSliderFloat': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2735): message : see declaration of 'VSliderFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2741,1): error C2244: 'VSliderInt': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2740): message : see declaration of 'VSliderInt'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2857,69): error C2065: 'ImGuiInputTextFlags_NoMarkEdited': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2896,14): error C2065: 'ImGuiInputTextFlags_NoMarkEdited': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2911,41): error C2065: 'ImGuiButtonFlags_Repeat': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2911,67): error C2065: 'ImGuiButtonFlags_DontClosePopups': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(2913,29): error C2065: 'ImGuiButtonFlags_Disabled': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3008,1): error C2244: 'InputFloat': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3007): message : see declaration of 'InputFloat'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3016,1): error C2244: 'InputFloat2': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3015): message : see declaration of 'InputFloat2'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3024,1): error C2244: 'InputFloat3': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3023): message : see declaration of 'InputFloat3'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3032,1): error C2244: 'InputFloat4': unable to match function definition to an existing declaration
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3031): message : see declaration of 'InputFloat4'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3079,5): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3085,71): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3085,121): error C2664: 'bool ImGui::InputTextEx(const char *,const char *,char *,int,const ImVec2 &,ImGuiInputTextFlags,ImGuiInputTextCallback,void *)': cannot convert argument 6 from 'ImGuiInputTextCallback' to 'ImGuiInputTextFlags'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3085,102): message : There is no context in which this conversion is possible
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_internal.h(1791,29): message : see declaration of 'ImGui::InputTextEx'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3090,5): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3329,40): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3404,5): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3412,40): error C2065: 'ImGuiInputTextFlags_Multiline': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3412,16): error C2737: 'is_multiline': const object must be initialized
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3579,24): error C2039: 'DisplayOffset': is not a member of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2775): message : see declaration of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(3579,48): error C2039: 'DisplayOffset': is not a member of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui.h(2775): message : see declaration of 'ImFont'
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(4147,36): error C2065: 'ImGuiInputTextFlags_NoMarkEdited': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5278,25): error C2065: 'ImGuiButtonFlags_AllowItemOverlap': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5280,25): error C2065: 'ImGuiButtonFlags_PressedOnDoubleClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5280,109): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5282,25): error C2065: 'ImGuiButtonFlags_PressedOnDragDropHold': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5291,25): error C2065: 'ImGuiButtonFlags_NoKeyModifiers': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5566,73): error C2065: 'ImGuiButtonFlags_NoHoldingActiveID': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5567,70): error C2065: 'ImGuiButtonFlags_PressedOnClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5568,72): error C2065: 'ImGuiButtonFlags_PressedOnRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5569,64): error C2065: 'ImGuiButtonFlags_Disabled': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5570,72): error C2065: 'ImGuiButtonFlags_PressedOnClickRelease': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5570,113): error C2065: 'ImGuiButtonFlags_PressedOnDoubleClick': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5571,72): error C2065: 'ImGuiButtonFlags_AllowItemOverlap': undeclared identifier
+C:\Users\malth\Desktop\ImGui-Loader-Base-master\imgui\imgui_widgets.cpp(5571,105): fatal error C1003: error count exceeds 100; stopping compilation
+  main.cpp
+  Generating Code...
